@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+h2,p {
+  text-align: center;
+  margin: 5px;
+}
+
+.iframe-wrapper {
+  height: 100%;
+  width: 100%;
+  margin: 10px auto;
+}
+
+iframe {
+  height: 100%;
+  width: 100%;
+}
